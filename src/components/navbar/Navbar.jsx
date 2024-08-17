@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Logo } from '../../assets/AppIcons'
+import { CartIcon, Logo } from '../../assets/AppIcons'
 import { ShopIcon } from '../../assets/AppIcons'
 import { WishlistIcon } from '../../assets/AppIcons'
 import { SearchIcon } from '../../assets/AppIcons'
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <a href="#" className="hidden sm:flex  transition-colors duration-300 hover:text-red-500 h-6 "><ShopIcon /></a>
                         <a href="#" className="transition-colors duration-300 hover:text-red-500 h-6"><WishlistIcon /></a>
                         <a href="#" className="transition-colors duration-300 hover:text-red-500 h-6"><AccountIcon /></a>
-                        <a href="#" className="transition-colors duration-300 hover:text-red-500 h-6"><ShopIcon /></a>
+                        <a href="#" className="transition-colors duration-300 hover:text-red-500 h-6"><CartIcon /></a>
                     </div>
                 </div>
             </nav>

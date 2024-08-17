@@ -20,10 +20,10 @@ const Home = () => {
             name: 'Clothes',
             img: luisana_galicia,
         },
-        {
-            name: 'Necklace',
-            img: kateryna_hliznitsova,
-        },
+        // {
+        //     name: 'Necklace',
+        //     img: kateryna_hliznitsova,
+        // },
     ]
 
     return (
@@ -32,7 +32,7 @@ const Home = () => {
 
             <div className='flex flex-col p-10 gap-10 text-3xl'>
                 Explore Categories
-                <div className='grid grid-cols-4 gap-10'>
+                <div className='grid grid-cols-3 gap-10'>
                 {
                     categoriesDB.map((category) => <CategoriesCard {...category} />)
                 }
